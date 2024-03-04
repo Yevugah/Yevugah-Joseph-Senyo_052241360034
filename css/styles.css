@@ -1,0 +1,79 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap'); 
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	border: none; 
+	outline: none; 
+	font-family: 'Poppins', sans-serif; 
+	text-transform: capitalize; 
+	transition: all 0.2s linear; 
+} 
+.registration-form{
+    width:100%;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+.registration-form input[type="text"], .registration-form input[type="email"], .registration-form input[type="password"]{
+width:100%;
+padding: 15px;
+margin-bottom: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+
+}
+.registration-form input[type="submit"]{
+    width:100%;
+    padding: 15px;
+    background-color:#4CAF50 ;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.head{
+    text-align: center;
+}
+select {
+    padding: 10px;
+}
+.select-dept {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    transition: transform 0.2s;
+    width: 100%;
+}
+.date {
+
+    width:100%;
+    padding: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    padding-bottom: 20px;
+ 
+ 
+ }
+ .btn-home{
+     width:100%;
+     padding: 15px;
+     background-color:#4CAF50 ;
+     color:white;
+     border:none;
+     border-radius: 5px;
+     cursor: pointer;
+     text-decoration: none;
+     
+ 
+ }
+ 
+ 
+ 
+
+
+
