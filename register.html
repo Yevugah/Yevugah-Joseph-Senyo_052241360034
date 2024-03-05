@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+   
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2 class="head">Registration Form<h2>
+   
+    <form class="registration-form" action="" method="POST">
+        <label>First Name</label>
+        <input type="text" placeholder="Enter your full name" required name="Name" >
+        <label>Last Name</label>
+        <input type="text" placeholder="Enter your username" required name="username">
+        <label>Others</label>
+        <input type="text" placeholder="Enter your other name if you have one">
+        <label for="">Date of Birth</label>
+        <input type="date" placeholder="Enter your Date of birth" required class="date">
+        <label for="">Telephone</label>
+        <input type="text" placeholder="Enter your Telephone number ">
+
+        <label>IndexNumber</label>
+        
+        <input type="text" placeholder="Enter your index number" required name="indexNumber">
+
+        <h3>Department</h3>
+        <select name="Deparments" id="dept-select" class="select-dept">
+            <option value="Hotel, Catering and Institutional Management">Hotel, Catering and Institutional Management</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Food Technology">Food Technology</option>
+            <option value="Information Science">Information Science </option>
+            <option value="Mathematical Science">Mathematical Science</option>
+
+
+        </select><br>
+        <label for="">Address</label>
+        <input type="text" placeholder="Address" ><br>
+        <label>Email</label>
+        <input type="email" placeholder="Enter your Email" required name="email">
+        <label for="">Passport Picture</label>
+        <input type="file" required><br><br>
+       
+        <input type="submit" value="Register"><br><br><br>
+        <a class="btn-home" href="index.html"> Back Home</a>
+
+        
+
+   </form>
+    
+</body>
+</html>
